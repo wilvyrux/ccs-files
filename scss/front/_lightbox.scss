@@ -1,0 +1,126 @@
+.rty-lightbox-register-wrapper {
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9) !important;
+    display: none;
+    overflow: auto;
+    
+    .close-btn {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .rty-lightbox-wrapper {
+        background-color: $gold;
+        position: relative;
+        max-width: 800px;
+        min-width: 250px;
+        padding: 0;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 5%;
+        border-radius: 5px;
+        
+        .rty-lightbox-head {
+            padding: 0;
+            
+            .rty-title {
+                padding: 50px 50px 10px;
+                              
+                .rty-close-symbol {
+                    position: absolute;
+                    color: #222;
+                    right: 20px;
+                    top: 15px;
+                    display: block !important;
+                    //font-family: $font-source !important;
+                    font-weight: 700;
+                    
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+                h1 {
+                    @extend heading;
+                    
+                    &:after {
+                        @extend heading-after;
+                        background: #222;
+                    }  
+                }
+            }
+        }
+        .rty-body-content {
+            padding: 20px 50px;
+            
+            .description {
+                //font-family: $font-source !important;
+                font-weight: 700;
+                color: #fff;
+            }
+            .gform_body {
+                input[type="text"],
+                input[type="email"],
+                input[type="number"],
+                input[type="password"],
+                textarea,
+                select {
+                    //font-family: $font-source !important;
+                    padding: 0 15px !important;
+                    background: rgba(255, 255, 255, 0.8);
+                    width: 100% !important;
+                    border: none;
+                    border-radius: 5px;
+                }
+                label {
+                    font-family: $font-source !important;
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin: 0;
+                    color: #222;
+                    
+                    .gfield_required {
+                        display: none;
+                    }
+                }
+                #field_3_10 {
+                    .gfield_label {
+                        display: none;
+                    }
+                }
+                .ginput_container_checkbox {
+                    margin: 0;
+                    
+                    label {
+                        color: #fff;
+                    }
+                }
+                .ginput_container_text,
+                .ginput_container_email {
+                    margin-top: 0;
+                }
+            }
+            .gform_footer {
+                input[type="submit"] {
+                    background-color: #222;
+                    border: 3px solid #222;
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding: 10px 35px;
+                    color: #fff;
+
+                    &:hover {
+                        background-color: $gold;
+                        border: 3px solid #222;
+                    }
+                }
+            }
+        }
+    }
+}

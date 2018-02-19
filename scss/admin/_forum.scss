@@ -1,0 +1,54 @@
+.profile-forum {
+	.dwqa-popular-questions {
+		ul {
+			list-style-type: square;
+			padding-left: 15px;
+
+			li {
+				//padding-left: 10px;
+
+				a {
+					display: block;
+					//margin-left: -10px;
+				}
+			}
+		}
+	}
+
+	.dwqa-questions-archive {
+
+		.dwqa-search {
+			.fa {
+				display: none;
+			}
+		}
+		
+		.dwqa-question-filter {
+			& > span {
+				/* display: block; */
+			}
+			.dwqa-sort-by {
+				clear: both;
+				float: none;
+				display: block;
+				margin: 10px 0 5px;
+			}
+		}
+
+		.dwqa-ask-question {
+			display: none !important;
+			float: none;
+		}
+
+	}
+
+
+	.dwqa-alert {
+		&.dwqa-alert-success {
+			background-color: #caffca;
+			font-size: 14px;
+			font-style: italic;
+		}
+	}
+
+}

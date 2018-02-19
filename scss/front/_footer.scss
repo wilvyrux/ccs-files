@@ -1,0 +1,150 @@
+footer.cp-footer {
+    border-top: 7px solid $gold;
+    background-color: $lighter-gray;
+    
+    .cp-footer-top {
+        .cp-ft-box {
+            background: #686868;
+            
+            .left {
+                width: 30%;
+                background-color: $gold;
+                //font-family: $font-source;
+                font-size: 23px;
+                font-weight: 900;
+                line-height: 1;
+                text-align: left;
+                text-transform: uppercase;
+                padding: 20px 10px 0;
+
+                @media (min-width:1024px) and (max-width:1279px) {
+                    font-size: 20px;
+                }
+                @media (min-width:360px) and (max-width:599px) {
+                    font-size: 21px;
+                }
+                @media (min-width:250px) and (max-width:359px) {
+                    font-size: 19px;
+                }
+            }
+            .cp-text {
+                height: 100px;
+                padding: 10px;
+                background-color: #686868;
+                display: table;
+                
+                @media (min-width:1024px) and (max-width:1279px) {
+                    width: 70%;
+                }
+                .content-holder {
+                    display: table-cell;
+                    vertical-align: middle;
+                    
+                    .fa-phone {
+                        display: none;
+                    }
+                    .fa-clock-o {
+                        margin-right: 0;
+                        color: $gold;
+                        padding: 10px 0;
+                    }
+                    span {
+                        color: #fff;
+                        //font-family: $font-source;
+                        font-size: 21px;
+                        line-height: 21px;
+
+                        @media (min-width:1024px) and (max-width:1279px) {
+                            font-size: 17px;
+                        }
+                        @media (min-width:360px) and (max-width:599px) {
+                            font-size: 16px;
+                        }
+                        @media (min-width:250px) and (max-width:359px) {
+                            font-size: 16px;
+                        }
+                    }
+                    a {
+                        color: #fff;
+                        font-size: 21px;
+                        line-height: 21px;
+
+                        @media (min-width:1024px) and (max-width:1279px) {
+                            font-size: 17px;
+                        }
+                        @media (min-width:360px) and (max-width:599px) {
+                            font-size: 16px;
+                        }
+                        @media (min-width:250px) and (max-width:359px) {
+                            font-size: 16px;
+                        }
+                        &:last-child {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cp-footer-bottom {
+        .widget {
+            p {
+                color: #333;
+                //font-family: $font-source !important;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 25px;
+            }
+            h3 {
+                color: #333;
+            }
+            ul {
+                li {
+                    &:before {
+                        color: #333;
+                    }
+                    a {
+                        color: #333;
+                        font-family: $font-source;
+                        font-weight: 700;
+                    }
+                    &:hover {
+                        a, &:before {
+                            color: $gold;
+                        }
+                    }
+                }
+            }
+        }
+        .social-media-links {
+            .col-md-6 {
+                padding: 5px;
+                
+                a {
+                    width: 100%;
+                    display: block;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 50px;
+                    background-color: #686868;
+                    padding: 15px;
+                    
+                    &:hover {
+                        background-color: $gold;
+                    }
+                }
+            }
+        }
+    }
+    .cp-copyright-row {
+        border: none;
+        
+        .copyright-holder {
+            p {
+                color: #333;
+                //font-family: $font-source !important;
+                font-weight: 700;
+            }
+        }
+    }
+}

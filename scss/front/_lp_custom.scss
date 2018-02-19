@@ -1,0 +1,187 @@
+.single-lp_course {
+	.comment-box {
+		display: none !important;
+	}
+	.course-learning-summary {
+		.course-meta {
+			display: none !important;
+		}
+	}
+
+	.course-landing-summary {
+		.course-meta {
+			display: none;
+		}
+	}
+
+	.learn-press-tabs {
+
+		.learn-press-nav-tabs {
+			padding-left: 0 !important; 
+			margin-left: 0 !important; 
+
+			li {
+				list-style-type: none !important;
+			}
+		}
+		
+	}
+
+	.purchase-button,
+	.button-retake-course,
+	.button-finish-course,
+	.enroll-button { 
+		border: 0;
+		border-radius: 0;
+		color: #FFF;
+		text-transform: uppercase;
+		padding: 10px 24px;
+		margin-bottom: 15px;
+		box-shadow: none;
+	}
+
+	.lp-course-status {
+		.course-code {
+			margin-left: 15px;
+			margin-bottom: 0;
+		}
+	}
+
+	#course-code-info {
+		.modal-backdrop {
+			z-index: 0;
+		}
+		.modal-title {
+			margin-bottom: 0;
+		}
+	}
+
+} 
+
+#course-curriculum-popup {
+	//position: static !important;
+
+	.learn-press-course-results-progress {
+		display: none !important;
+	}
+
+	.time-duration {
+		color: $lighter-gray;
+	}
+
+	#popup-main {
+		left: 0 !important;
+
+		#popup-header {
+			right: 0 !important;
+			left: -350px !important;
+			background: $pale-red;
+		}
+		#popup-content {
+			margin-right: 350px;
+		}
+		#popup-footer {
+			z-index: 11;
+		}
+	}
+
+	#popup-sidebar {
+		right: 0;
+		z-index: 10;
+	}
+
+
+
+	.course-item-meta {
+		.item-status {
+
+			&::before {
+				color: $pale-red !important; 
+			}
+
+			&.item-status-completed {
+				background-color: transparent !important;
+				&::before {
+					content: '\f058' !important;
+					font-family: fontawesome;
+				}
+			}
+		}
+	}
+
+}
+
+
+.learn-press-content-item-only {
+	.learn-press-content-item-summary{
+		button {
+			background-color: #AAA;
+			padding: 15px 40px;
+			text-transform: uppercase;
+			color: #FFF;
+			font-family: Arial;
+			font-weight: 400;
+			margin-top: 40px;
+			border: 0 none;
+
+			&.button-complete-item {
+				background-color: #F15B4D;
+
+				&:hover {
+					background-color: #F15B4D - #222222;
+				}
+			}
+		}
+	}
+
+	.quiz-description {
+		margin-bottom: 15px;
+	}
+	.quiz-result {
+		& > h4 {
+			margin-bottom: 15px;
+		}
+	}
+
+	.course-item-navigation {
+		border-top: 1px solid #d7d7d7;
+		margin-bottom: 40px;
+
+		.nav-links {
+			.nav-previous,
+			.nav-next {
+				font-family: arial;
+
+				&:hover {
+					.meta-nav {
+						color: #000 !important;
+					}
+				}
+
+				.post-title {
+					display: none !important;
+				}
+			}
+		}
+	}
+
+	#respond {
+		display: none !important;
+	}
+}
+
+
+.learn-press-breadcrumb {
+	display: none !important;
+}
+
+
+.course-grade-code {
+	span {
+		padding: 5px 15px;
+	}
+}
+
+/* .rty-lightbox-register-wrapper {
+	display: none !important;
+} */

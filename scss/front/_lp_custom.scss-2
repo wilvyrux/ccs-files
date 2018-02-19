@@ -1,0 +1,144 @@
+.single-lp_course {
+	.comment-box {
+		display: none !important;
+	}
+	.course-learning-summary {
+		.course-meta {
+			display: none !important;
+		}
+	}
+
+	.course-landing-summary {
+		.course-meta {
+			display: none;
+		}
+	}
+
+	.learn-press-tabs {
+
+		.learn-press-nav-tabs {
+			padding-left: 0 !important; 
+			margin-left: 0 !important; 
+
+			li {
+				list-style-type: none !important;
+			}
+		}
+		
+	}
+
+	.purchase-button {
+		border-radius: 0;
+		color: #FFF;
+		text-transform: uppercase;
+		padding: 10px 24px;
+	}
+
+} 
+
+#course-curriculum-popup {
+	//position: static !important;
+
+	.learn-press-course-results-progress {
+		display: none !important;
+	}
+
+	.time-duration {
+		color: $lighter-gray;
+	}
+
+	#popup-main {
+		left: 0 !important;
+
+		#popup-header {
+			right: 0 !important;
+			left: -350px !important;
+			background: $pale-red;
+		}
+		#popup-content {
+			margin-right: 350px;
+		}
+	}
+
+	#popup-sidebar {
+		right: 0;
+	}
+
+
+
+	.course-item-meta {
+		.item-status {
+
+			&::before {
+				color: $pale-red !important; 
+			}
+
+			&.item-status-completed {
+				background-color: transparent !important;
+				&::before {
+					content: '\f058' !important;
+					font-family: fontawesome;
+				}
+			}
+		}
+	}
+
+}
+
+
+.learn-press-content-item-only {
+	.learn-press-content-item-summary{
+		button {
+			background-color: #AAA;
+			padding: 15px 40px;
+			text-transform: uppercase;
+			color: #FFF;
+			font-family: Arial;
+			font-weight: 400;
+			margin-top: 40px;
+			border: 0 none;
+
+			&.button-complete-item {
+				background-color: #F15B4D;
+
+				&:hover {
+					background-color: #F15B4D - #222222;
+				}
+			}
+		}
+	}
+
+	.course-item-navigation {
+		border-top: 1px solid #d7d7d7;
+		margin-bottom: 40px;
+
+		.nav-links {
+			.nav-previous,
+			.nav-next {
+				font-family: arial;
+
+				&:hover {
+					.meta-nav {
+						color: #000 !important;
+					}
+				}
+
+				.post-title {
+					display: none !important;
+				}
+			}
+		}
+	}
+
+	#respond {
+		display: none !important;
+	}
+}
+
+
+
+
+
+/* .rty-lightbox-register-wrapper {
+	display: none !important;
+} */

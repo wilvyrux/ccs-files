@@ -1,0 +1,240 @@
+.page-id-850 {
+    .cp-Our-experties {
+        .cp-section-title {
+            h2 {
+                @extend heading;
+            }            
+            strong {
+                &:after {
+                    background: #cccccc;
+                    top: -20px;
+
+                    @media (min-width:360px) and (max-width:599px) {
+                        display: none;
+                    }
+                    @media (min-width:250px) and (max-width:359px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .cp-ex-slider {
+            .slide {
+                .cp-ex-title {
+                    background: $gold;
+                    padding: 0;
+                    
+                    h3 {
+                        a {
+                            color: #fff;
+                            padding: 15px 0;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Single Page */
+.single-expertise {
+    .cp-wrapper {
+        .cp-inner-banner {
+            background-image: url(../../../uploads/2017/08/services-banner.jpg);
+        }
+    }
+    .services-wrapper {
+        .cp-text {
+            p {
+                //font-family: $font-source !important;
+            }
+        }
+        .book-appointment {
+            margin: 50px 0 25px;
+            display: inline-block;
+            
+            a {
+                background-color: $pale-red;
+                color: #fff;
+                text-decoration: none !important;
+                //font-family: $font-source !important;
+                font-size: 20px;
+                font-weight: 900;
+                padding: 15px 25px;
+                
+                &:hover {
+                    background-color: $gold;
+                }
+            }
+        }
+    }
+    .side-bar {
+        .widget {
+            @extend widget;
+        }
+    }
+}
+
+/* For Activities and Events */
+.page-id-854,
+.page-id-931 {
+    .page_content {
+        .entry-content-cp {
+            .cp-section-title {
+                @media (min-width:360px) and (max-width:599px) {
+                    margin: 0 15px;
+                }
+                @media (min-width:250px) and (max-width:359px) {
+                    margin: 0 15px;
+                }
+                h2 {
+                    @extend heading;
+                }
+            }
+            .event-calendar-navs {
+                .calendar-button-toolbar {
+                    .btn-group {
+                        &.mr-2 {
+                            @media (min-width:360px) and (max-width:599px) {
+                                display: block;
+                                width: 100%;
+                                text-align: center;
+                                margin: 0 0 10px;
+
+                                .btn {
+                                    float: none;
+                                }
+                            }
+                            @media (min-width:250px) and (max-width:359px) {
+                                display: block;
+                                width: 100%;
+                                text-align: center;
+                                margin: 0 0 10px;
+
+                                .btn {
+                                    float: none;
+                                    padding: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.event-registration-vcrow {
+    @media (min-width:600px) and (max-width:767px) {
+        padding: 25px !important;
+    }
+    @media (min-width:360px) and (max-width:599px) {
+        padding: 25px !important;
+    }
+    @media (min-width:250px) and (max-width:359px) {
+        padding: 25px !important;
+    }
+    .vc_column-inner {
+        @media (min-width:360px) and (max-width:599px) {
+            padding: 0 !important; 
+        }
+        @media (min-width:250px) and (max-width:359px) {
+            padding: 0 !important; 
+        }
+        .cp-section-title {
+            @media (min-width:360px) and (max-width:599px) {
+                margin: 0 !important;
+            }
+            @media (min-width:250px) and (max-width:359px) {
+                margin: 0 !important;
+            }
+        }
+        .event-registration-info {
+            @media (min-width:360px) and (max-width:599px) {
+                margin-top: 10px;
+            }
+            @media (min-width:250px) and (max-width:359px) {
+                margin-top: 10px;
+            }
+            .event-details {
+                p {
+                    @media (min-width:360px) and (max-width:599px) {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                    @media (min-width:250px) and (max-width:359px) {
+                        font-size: 13px;
+                        line-height: 17px;
+                    }
+                }
+            }
+            .booking-form {
+                .gform_wrapper {
+                    .gform_body {
+                        ul {
+                            li {
+                                label {
+                                    @media (min-width:360px) and (max-width:599px) {
+                                        font-size: 14px;
+                                        line-height: 20px;
+                                    }
+                                    @media (min-width:250px) and (max-width:359px) {
+                                        font-size: 13px;
+                                        line-height: 17px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Events */
+.entry-content-cp {
+    .events-plus-2 {
+        .event-single {
+            .event-single-title-wrap {
+                .cp-section-title {
+                    @media (min-width:360px) and (max-width:599px) {
+                        margin: 0 15px;
+                    }
+                    @media (min-width:250px) and (max-width:359px) {
+                        margin: 0 15px;
+                    }
+                    h2 {
+                        @extend heading;
+                    }
+                }
+            }
+            .col-xs-6 {
+                @media (min-width:250px) and (max-width:359px) {
+                    width: 100%;
+                }
+                @media (min-width:360px) and (max-width:599px) {
+                    width: 100%;
+                }
+                @media (min-width:600px) and (max-width:767px) {
+                    width: 100%;
+                }
+                @media (min-width:768px) and (max-width:1023px) {
+                    width: 100%;
+                }
+            }
+            .d3sc {
+                p {
+                    @media (min-width:360px) and (max-width:599px) {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                    @media (min-width:250px) and (max-width:359px) {
+                        font-size: 13px;
+                        line-height: 17px;
+                    }
+                }
+            }
+        }
+    }
+}

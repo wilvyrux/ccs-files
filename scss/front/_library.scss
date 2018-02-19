@@ -1,0 +1,420 @@
+/* Help Guide */
+.page-id-906 {
+    .entry-content-cp {
+        .vc_col-sm-9,
+        .vc_col-sm-3 {
+            @media (min-width:768px) and (max-width:1023px) {
+                display: block;
+                width: 100%;
+                padding: 15px;
+            }
+            @media (min-width:250px) and (max-width:767px) {
+                padding: 15px;
+            }
+        }
+        .vc_custom_heading {
+            @extend heading;
+            
+            &:after {
+                @extend heading-after;
+            }
+        }
+        .wpb_text_column {
+            h4 {
+                color: $gold;
+                //font-family: $font-source !important;
+
+                @media (min-width:360px) and (max-width:599px) {
+                    font-size: 14px !important;
+                }
+                @media (min-width:250px) and (max-width:359px) {
+                    font-size: 13px !important;
+                }
+            }
+        }
+        .vc_tta-container {
+            .vc_tta-panels {
+                .vc_tta-panel {
+                    .vc_tta-panel-heading {
+                        background: none;
+                        border: none;
+
+                        .vc_tta-panel-title {
+                            margin: 0;
+                            
+                            a {
+                                color: #000;
+                                //font-family: $font-source;
+                                font-weight: 700;
+
+                                @media (min-width:360px) and (max-width:599px) {
+                                    font-size: 15px;
+                                    padding: 10px 10px 5px;
+                                }
+                                @media (min-width:250px) and (max-width:359px) {
+                                    font-size: 14px;
+                                    padding: 10px 10px 5px;
+                                }
+                                .vc_tta-controls-icon {
+                                    background: #000;
+                                    width: 5px;
+                                    height: 5px;
+                                    border-radius: 50%;
+
+                                    @media (min-width:250px) and (max-width:599px) {
+                                        left: 0;
+                                    }
+                                    &:before,
+                                    &:after {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .vc_tta-panel-body {
+                        background: none;
+                        border: none;
+                        padding: 0 0 10px 8%;
+                        
+                        .wpb_text_column {
+                            p {
+                                font-weight: 400;
+                                font-style: italic;
+                            }
+                        }
+                    }
+                    &.vc_active {
+                        .vc_tta-panel-heading {
+                            background: none;
+                            border: none;
+                            
+                            .vc_tta-panel-title {
+                                a {
+                                    color: $pale-red;
+                                    
+                                    .vc_tta-controls-icon {
+                                        background: $pale-red;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .widget {
+            @extend widget;
+        }
+    }
+}
+
+/* Articles & Media */
+.page-id-972,
+.page-id-995 {
+    .entry-content-cp {
+        .vc_col-sm-3,
+        .vc_col-sm-9 {
+            @media (min-width:768px) and (max-width:1023px) {
+                display: block;
+                width: 100%;
+                padding: 15px;
+            }
+            @media (min-width:250px) and (max-width:767px) {
+                padding: 15px;
+            }
+        }
+    }
+}
+
+/* Useful Links */
+.page-id-914 {
+    .entry-content-cp {
+        .vc_col-sm-12 {
+            @media (min-width:250px) and (max-width:1023px) {
+                padding: 15px;
+            }
+        }
+        .vc_custom_heading {
+            @extend heading;
+            
+            &:after {
+                @extend heading-after;
+            }
+        }
+        .vc_tta-container {
+            .vc_tta-panels {
+                .vc_tta-panel {
+                    .vc_tta-panel-heading {
+                        background: none;
+                        border: none;
+                        
+                        .vc_tta-panel-title {
+                            margin: 0;
+                            
+                            a {
+                                font-size: 30px;
+                                color: $pale-red;
+                                text-transform: uppercase;
+                                
+                                @media (min-width:768px) and (max-width:1023px) {
+                                    font-size: 23px;
+                                }
+                                @media (min-width:600px) and (max-width:767px) {
+                                    font-size: 21px;
+                                    padding-left: 25px;
+                                    padding-right: 10px;
+                                }
+                                @media (min-width:250px) and (max-width:599px) {
+                                    font-size: 18px;
+                                    padding-left: 15px;
+                                    padding-right: 5px;
+                                }
+                                .vc_tta-controls-icon {
+                                    @media (min-width:250px) and (max-width:767px) {
+                                        left: 0;
+                                    }
+                                    &:before {
+                                        border: none;
+                                        font-family: FontAwesome;
+                                        content: "\f101";
+                                        font-style: normal;
+                                    }
+                                    &:after {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .vc_tta-panel-body {
+                        background: none;
+                        border: none;
+                        padding-left: 7%;
+                        
+                        .wpb_text_column {
+                            p {
+                                color: #000;
+                                font-size: 25px;
+                                
+                                @media (min-width:768px) and (max-width:1023px) {
+                                    font-size: 18px;
+                                }
+                                @media (min-width:600px) and (max-width:767px) {
+                                    font-size: 16px;
+                                }
+                                @media (min-width:360px) and (max-width:599px) {
+                                    font-size: 14px;
+                                }
+                                @media (min-width:250px) and (max-width:359px) {
+                                    font-size: 13px;
+                                }
+                                i.fa {
+                                    color: $pale-red;
+                                    margin: 10px 0;
+                                }
+                                strong {
+                                    margin: 0 25px 0 8px;
+
+                                    @media (min-width:250px) and (max-width:599px) {
+                                        margin: 0 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.vc_active {
+                        .vc_tta-panel-title {
+                            a {
+                                .vc_tta-controls-icon {
+                                    &:before {
+                                        content: "\f103";
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Handling Creditors */
+.page-id-911 {
+    .entry-content-cp {
+        .vc_col-sm-12 {
+            @media (min-width:250px) and (max-width:1023px) {
+                padding: 15px;
+            }
+        }
+        .vc_custom_heading {
+            @extend heading;
+            
+            &:after {
+                @extend heading-after;
+            }
+        }
+        .wpb_text_column {            
+            &.cols3 {
+                margin-top: 8%;
+                
+                ul {
+                    @media (min-width:250px) and (max-width:1023px) {
+                        padding: 0;
+                    }
+                    li {
+                        display: inline-block;
+                        font-size: 25px;
+                        color: $pale-red;
+
+                        @media (min-width:1024px) and (max-width:1279px) {
+                            font-size: 21px;
+                        }
+                        @media (min-width:600px) and (max-width:1023px) {
+                            display: block;
+                            margin: 10px 0;
+                        }
+                        @media (min-width:600px) and (max-width:767px) {
+                            font-size: 20px;
+                        }
+                        @media (min-width:360px) and (max-width:599px) {
+                            display: block;
+                            font-size: 17px;
+                        }
+                        @media (min-width:250px) and (max-width:359px) {
+                            display: block;
+                            font-size: 16px;
+                        }
+                        &:before {
+                            content: "";
+                            background: #000;
+                            width: 10px;
+                            height: 10px;
+                            display: inline-block;
+                            margin: 4px 10px;
+                            border-radius: 50%;
+
+                            @media (min-width:250px) and (max-width:599px) {
+                                width: 5px;
+                                height: 5px;
+                            }
+                        }
+                        &:first-child:before {
+                            display: none;
+
+                            @media (min-width:250px) and (max-width:1023px) {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+            }
+            p {
+                strong {
+                    color: $gold;
+                }
+            }
+        }
+    }
+}
+
+
+/* Debt Management Solutions */
+.page-id-908 {
+    .entry-content-cp {
+        .vc_col-sm-12 {
+            @media (min-width:250px) and (max-width:1023px) {
+                padding: 15px;
+            }
+        }
+        .vc_custom_heading {
+            @extend heading;
+            
+            &:after {
+                @extend heading-after;
+                left: 50%;
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+            }
+        }
+        .vc_tta-container {
+            margin: 8% 0;
+            
+            .vc_tta-panels {
+                .vc_tta-panel {
+                    .vc_tta-panel-heading {
+                        background: none;
+                        border: none;
+                        border-bottom: 1px solid $pale-red;
+                        
+                        .vc_tta-panel-title {
+                            margin: 0;
+                            
+                            a {
+                                color: #000;
+                                font-size: 25px;
+                                font-weight: 900;
+                                padding: 18px 20px 18px 45px;
+                                
+                                @media (min-width:360px) and (max-width:599px) {
+                                    font-size: 15px;
+                                    padding: 10px 10px 10px 25px;
+                                }
+                                @media (min-width:250px) and (max-width:359px) {
+                                    font-size: 14px;
+                                    padding: 8px 8px 8px 20px;
+                                }
+                                .vc_tta-controls-icon {
+                                    &:before {
+                                        content: "\f036";
+                                        font-family: FontAwesome;
+                                        font-style: normal;
+                                        color: $pale-red;
+                                        border: none;
+                                        left: -18px;
+                                    }
+                                    &:after {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .vc_tta-panel-body {
+                        background: none;
+                        border: none;
+                        padding: 25px 25px 25px 8%;
+                        
+                        @media (min-width:360px) and (max-width:599px) {
+                            padding: 10px;
+                        }
+                        @media (min-width:250px) and (max-width:359px) {
+                            padding: 8px;
+                        }
+                        .wpb_text_column {
+                            h4 {
+                                color: #000;
+                                font-weight: 900;
+                                margin: 0 0 10px;
+
+                                @media (min-width:360px) and (max-width:599px) {
+                                    font-size: 15px !important;
+                                }
+                                @media (min-width:250px) and (max-width:359px) {
+                                    font-size: 14px !important;
+                                }
+                            } 
+                            p {
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

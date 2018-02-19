@@ -1,0 +1,105 @@
+.wp-admin {
+
+	.row {
+		width: 100%;
+	}
+
+	.btn {
+		border-radius: 0;
+		padding: 5px 14px;
+
+		&.btn-default {
+			background-color: #c7c7c7;
+		}
+		&.btn-primary {
+			background-color: #000;
+		}
+	}
+
+	form.form-inline {
+		label {
+			margin-bottom: 0; 
+		}
+	}
+
+	.form-control {
+		height: 30px;
+		border-radius: 0;
+		vertical-align: top;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	textarea.form-control {
+		height: auto;
+	}
+
+	label.dark-label {
+		background-color: #999;
+		color: #FFF;
+	}
+
+	.input-group {
+		.btn {
+			margin-left: 0;
+		}
+	}
+
+	/* Manage events */
+	.admin-event-controls {
+		/* border-bottom: 2px solid #ee5952; */
+		margin-bottom: 30px;
+
+		.event-filters-wrap {
+			border: 1px solid #cdcdcd;
+			box-shadow: 2px 2px 0 #ee5952;
+		}
+	}
+
+	/* Settings */
+	.events-plus_page_configure {
+		.stephead {
+			color: #999;
+		}
+	}
+
+	.tabs {
+		border: 1px solid #cdcdcd;
+		margin-bottom: 30px !important;
+		background-color: #FFF !important;
+		height: auto !important;
+
+		& > li {
+			background: transparent !important;
+			border: 0 none !important;
+			box-shadow: none !important;
+			transition: all .25s ease;
+			border-radius: 0 !important;
+			height: auto !important;
+
+			&:hover {
+				top: 0 !important;
+				/* border-bottom: 2px solid red !important; */
+			}
+
+			& > a {	
+				font-weight: normal !important;
+			background: transparent !important;
+				border: 0 none !important;
+				border-radius: 0 !important;
+			}
+
+			&.active {
+				& > a {
+					font-weight: bold !important;
+				}
+			}
+		}
+	}
+}
+
+
+.evrplus_tab_container {
+	input[type="checkbox"] {
+		//display: inline-block;
+	}
+}

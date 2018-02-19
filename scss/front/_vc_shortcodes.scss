@@ -1,0 +1,145 @@
+.cp-section-title {
+	float: none;
+	
+	strong::after {
+		top: 0;
+		background: #CCC;
+	}
+
+}
+
+.survey-grid-items {
+
+	.grid-column {
+		margin-bottom: 50px;
+	}
+
+	.survey-grid-item {
+		box-shadow: 0 0 1px #f1f1f1;
+		margin-bottom: 45px;
+
+		img {
+			height: auto;
+		}
+
+		h3 {
+			font-family: $font-noto;
+			font-size: 16px;
+			text-align: center;
+			margin: 20px 0 !important;
+		}
+
+		.grid-content {
+			padding: 0 15px;
+		}
+
+		.grid-meta {
+			font-size: 12px;
+			margin: 0 -5px;
+			color: $pale-red;
+			font-family: $font-noto;  
+		}
+
+		.meta-item {
+			float: left;
+			width: 50%;
+			padding: 0 5px;
+
+			&:first-child {
+				text-align: right;
+			}
+		}
+
+		.excerpt {
+			margin: 15px 0 30px;
+		}
+
+		.excerpt,
+		.excerpt * {
+			font-size: 12px;
+			font-family: $font-noto; 
+			color: $darker-gray;
+			text-align: justify;
+		}
+
+		.survey-grid-button {
+			padding: 15px 0;
+			background-color: $gold;
+			border-radius: 50px;
+			color: #fff;
+			position: absolute;
+			font-weight: 700;
+			font-family: Arial !important;
+			font-size: 21px;
+			left: 10%;
+			right: 10%;
+			text-align: center;
+			bottom: -27px;
+
+			&:hover {
+				background-color: $gold - #222222;
+			}
+		}
+
+	}
+}
+
+
+
+
+.ui-nex-forms-container {
+	.radio-group {
+		&.pulse {
+			.input_container {
+				/* &::before {
+					content: 'Strongly Disagree';
+				}
+				&::after {
+					content: 'Strongly Agree';
+				} */
+
+				.input-label {
+					position: absolute;
+					top: 0;
+					margin: -1.5em;
+				}
+
+				.prettyradio {
+					display: block;
+				}  
+
+				.radio-inline {
+					margin-right: 22px !important;
+				}
+			}
+		}
+	}
+
+	.submit-button {
+		.input_container {
+			text-align: center;
+		}
+		.the_input_element.btn {
+			border-radius: 0 !important;
+		}
+	}
+}
+
+.survey-form-single {
+	padding: 30px 0;
+}
+
+
+
+
+
+.gform_wrapper {
+	div.validation_error {
+		border-top: 1px solid #790000;
+		border-bottom: 1px solid #790000;
+	}
+
+	input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]) {
+		border-radius: 0;
+	}
+}

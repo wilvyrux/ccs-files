@@ -1,0 +1,35 @@
+.event-single {
+	background-color: transparent!important;
+	border: none 0!important;
+	box-shadow: none!important;
+
+	.event-single-title-wrap {
+		padding-bottom: 30px;
+	}
+
+	.ac8ion {
+		text-align: left !important;
+	}
+
+	.btn.regis8er { 
+		background-color: #f15b4e;
+		border-radius: 0;
+		color: #FFF !important;
+		box-shadow: none;
+		font-size: 16px;
+
+		&:hover {
+			background-color: #f15b4e - #222222;
+		}
+	}
+}
+
+.event-registration-vcrow {
+	
+}
+
+.cp-section-title::after {
+	content: '';
+	display: table;
+	clear: both;
+} 

@@ -1,0 +1,54 @@
+.admin-color-ccs #adminmenuback {
+  background-color: #C28C50; }
+
+.admin-color-ccs #adminmenu, .admin-color-ccs #adminmenu .wp-submenu, .admin-color-ccs #adminmenuback, .admin-color-ccs #adminmenuwrap {
+  background-color: #C28C50; }
+
+.admin-color-ccs #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, .admin-color-ccs #adminmenu .wp-menu-arrow, .admin-color-ccs #adminmenu .wp-menu-arrow div, .admin-color-ccs #adminmenu li.current a.menu-top, .admin-color-ccs #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .admin-color-ccs .folded #adminmenu li.current.menu-top, .admin-color-ccs .folded #adminmenu li.wp-has-current-submenu {
+  background: #000;
+  color: #fff; }
+
+.admin-color-ccs #adminmenu > li.menu-top {
+  border-bottom: 1px solid #896426; }
+  .admin-color-ccs #adminmenu > li.menu-top.wp-menu-open > .wp-submenu-wrap {
+    right: 0; }
+  .admin-color-ccs #adminmenu > li.menu-top > a {
+    text-transform: uppercase;
+    color: #FFF; }
+  .admin-color-ccs #adminmenu > li.menu-top > .wp-submenu-wrap {
+    background-color: #8F6231; }
+
+.admin-color-ccs #adminmenu .wp-has-submenu.wp-not-current-submenu:hover::after {
+  border-left-color: #8F6231; }
+
+.admin-color-ccs #adminmenuback {
+  bottom: -120px;
+  right: 0; }
+
+.admin-color-ccs #adminmenuwrap {
+  float: right;
+  position: relative !important; }
+
+.admin-color-ccs #adminmenu li.wp-has-submenu.wp-not-current-submenu:hover::after {
+  right: auto;
+  left: 0;
+  border-left: 8px solid #333;
+  border-right: 0 solid transparent;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent; }
+
+.admin-color-ccs #adminmenu .wp-submenu {
+  left: auto;
+  right: 160px; }
+
+.admin-color-ccs #wpcontent,
+.admin-color-ccs #wpfooter {
+  margin-left: 0;
+  margin-right: 160px; }
+
+.admin-color-ccs #wp-admin-bar-root-default > li {
+  display: none !important; }
+  .admin-color-ccs #wp-admin-bar-root-default > li#wp-admin-bar-site-name {
+    display: block !important; }
+    .admin-color-ccs #wp-admin-bar-root-default > li#wp-admin-bar-site-name > ul {
+      display: none !important; }

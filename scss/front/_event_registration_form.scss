@@ -1,0 +1,86 @@
+.event-registration-vcrow {
+	padding: 40px 50px  !important;
+
+	.gform_wrapper {
+		label {
+			color: #000;
+			font-weight: normal !important;
+		}
+
+		.gform_fields {
+			padding: 0 !important;
+
+			input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="time"], input[type="date"], input[type="datetime-local"], input[type="tel"], input[type="number"], input[type="search"], textarea.materialize-textarea {
+				background: #FFF;
+				border-radius: 3px;
+				border: 0 none;
+			}
+
+			.gfield_required {
+				color: #000;
+			}
+
+			.gfield_html {
+				p {
+					color: #000;
+				}
+			}
+		}
+
+		.gform_footer {
+			.gform_button {
+				padding: 0 30px;
+				line-height: 2.5;
+				background: #000;
+				color: #FFF;
+				border: 0 aliceblue;
+				font-weight: bold;
+
+			}
+		}
+	}
+}
+
+.event-registration-info {
+	color: #FFF;
+
+	p {
+			color: #FFF;
+			margin-bottom: 8px;
+			font-weight: normal !important;
+		}
+
+	.event-meta {
+		p {
+			color: #FFF;
+			margin-bottom: 8px;
+		}
+	}
+}
+
+.booking-form {
+	margin-top: 45px;
+
+	.lwa-divs-only {
+		.lwa-links {
+			margin-top: 15px;
+
+			a {
+				color: #FFF;
+			}
+		}
+
+		.lwa-submit-button {
+			display: block;
+			float: none !important;
+
+			input[type="submit"],
+			.lwa-links-remember-cancel {
+				background-color: $pale-red;
+				color: #FFF;
+				border: 0 none;
+				padding: 10px 15px;
+			}
+		}
+	}
+}

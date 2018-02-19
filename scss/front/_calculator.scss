@@ -1,0 +1,358 @@
+.financial-calculator-wrapper {
+    margin: 50px 0;
+    -webkit-box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.5);
+    
+    @media (min-width:250px) and (max-width:1023px) {
+        margin: 25px 10px;
+    }
+    .header-holder {
+        background-color: $gold;
+        padding: 25px;
+        
+        @media (min-width:250px) and (max-width:767px) {
+            padding: 10px;
+        }
+        .col-md-10 {
+            display: table;
+            height: 150px;
+            
+            @media (min-width:250px) and (max-width:1023px) {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+            h1 {
+                color: #fff !important;
+                display: table-cell;
+                vertical-align: middle;
+
+                @media (min-width:1024px) and (max-width:1279px) {
+                    font-size: 35px !important;
+                }
+                @media (min-width:250px) and (max-width:1023px) {
+                    font-size: 35px !important;
+                    text-align: center;
+                    display: block;
+                }
+                @media (min-width:600px) and (max-width:767px) {
+                    font-size: 30px !important;
+                }
+                @media (min-width:360px) and (max-width:599px) {
+                    font-size: 25px !important;
+                }
+                @media (min-width:250px) and (max-width:359px) {
+                    font-size: 23px !important;
+                }
+            }
+        }
+        .col-md-2 {
+            height: 150px;
+            
+            @media (min-width:250px) and (max-width:1023px) {
+                display: block;
+                height: auto;
+                width: 100%;
+            }
+            button {
+                display: block;
+                width: 100%;
+                margin: 10px 0;
+                padding: 10px;
+                font-size: 16px;
+                font-weight: 700;
+                border: none;
+
+                &:first-child {
+                    margin-top: 0;
+                }
+                &:last-child {
+                    margin-top: 0;
+                }
+                &:hover {
+                    background-color: #222;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .body-holder {
+        padding: 50px;
+        
+        @media (min-width:250px) and (max-width:767px) {
+            padding: 15px;
+        }
+        h5 {
+            text-align: right;
+            //font-family: $font-source !important;
+            font-weight: 700;
+            margin: 25px 0 !important;
+        }
+        .btn-collapse-holder {
+            text-align: right;
+            margin: 0 0 50px;
+
+            .btn-collapse-all {
+                color: #fff;
+                font-weight: 700;
+                background-color: $gold;
+                border: 2px solid $gold;
+                padding: 10px 25px;
+
+                &:hover {
+                    background: none;
+                    color: $gold;
+                }
+                i.fa {
+                    margin-right: 5px;
+                }
+            }
+        }
+        .panel-group {
+            .panel {
+                border: none;
+                box-shadow: none;
+                margin: 25px 0;
+                
+                .panel-heading {
+                    background: none;
+                    border-bottom: 1px solid #ddd;
+                    
+                    .panel-title {     
+                        @media (min-width:250px) and (max-width:767px) {
+                            margin: 0;
+                        }                   
+                        a {
+                            //font-family: $font-source !important;
+                            font-size: 25px;
+                            font-weight: 900;
+                            display: block;
+                            position: relative;
+                            
+                            @media (min-width:600px) and (max-width:767px) {
+                                font-size: 20px;
+                            }
+                            @media (min-width:360px) and (max-width:599px) {
+                                font-size: 16px !important;
+                            }
+                            @media (min-width:250px) and (max-width:359px) {
+                                font-size: 15px !important;
+                            }
+                            i.fa {
+                                color: $pale-red;
+                            }
+                            .icon {
+                                float: right;
+                                
+                                i.fa-angle-right {
+                                    &:before {
+                                        content: "\f107";
+                                    }
+                                }
+                            }
+                            &.collapsed {
+                                .icon {
+                                    .fa-angle-right {
+                                        &:before {
+                                            content: "\f105";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .panel-body {
+                    padding: 50px 50px 25px;
+                    border: none !important;
+                    
+                    @media (min-width:250px) and (max-width:767px) {
+                        padding: 15px;
+                    }
+                    .control-label {
+                        //font-family: $font-source !important;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        color: #222;
+                        padding: 7px;
+
+                        @media (min-width:600px) and (max-width:767px) {
+                            font-size: 15px;
+                        }
+                        @media (min-width:250px) and (max-width:599px) {
+                            font-size: 14px;
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                    .input-group {
+                        width: 100%;
+                    }
+                    input.form-control,
+                    select.form-control {
+                        border: 1px solid #ccc;
+                        text-align: center;
+                        //font-family: $font-source !important;
+                        border-radius: 0;
+                        height: 40px;
+
+                        @media (min-width:250px) and (max-width:599px) {
+                            height: 35px;
+                        }
+                    }
+                    .caption {
+                        //font-family: $font-source !important;
+                        font-size: 12px;
+                        font-style: italic;
+                    }
+                    .form-group {
+                        .col-md-5 {
+                            @media (min-width:600px) and (max-width:767px) {
+                                padding: 0 10px;
+                            }
+                            @media (min-width:250px) and (max-width:599px) {
+                                padding: 0;
+                            }
+                        }
+                    }
+                    table {
+                        tbody {
+                            tr {
+                                td {
+                                    text-align: center;
+                                    
+                                    a {
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    #sub-accordion {
+                        .panel-title {
+                            a {
+                                .icon {
+                                    i.fa-caret-right {
+                                        &:before {
+                                            content: "\f0d7";
+                                        }
+                                    }
+                                }
+                                &.collapsed {
+                                    .icon {
+                                        .fa-caret-right {
+                                            &:before {
+                                                content: "\f0da";
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                #cash-flow-panel {
+                    .panel-body {
+                        h3 {
+                            position: relative;
+
+                            a.custom-tooltip {
+                                color: $gold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .custom-tooltip {
+            position: relative;
+            overflow: visible;  
+            display: inline-block !important; 
+
+            span {
+                position: absolute;
+                opacity: 0;
+                visibility: hidden;
+
+                top: 7px;
+                left: 45px;
+                width: 200px;
+                padding: 5px;
+                z-index: 9999;
+                color: #000;
+                overflow: hidden;
+                font-size: 13px;
+                line-height: 17px;
+                text-align: center;
+                //font-family: $font-source;
+                background-color: #ddd;
+                border-radius: 0 10px 10px 10px;
+                -webkit-transition: all 500ms ease-in-out;
+                -moz-transition: all 500ms ease-in-out;
+                -ms-transition: all 500ms ease-in-out;
+                -o-transition: all 500ms ease-in-out;
+                transition: all 500ms ease-in-out;
+            }
+            &:hover {
+                /* overflow: visible; */ 
+
+                span {
+                    left: 15px;
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+        .custom-tooltip-holder {
+            display: inline-block;
+            position: absolute;
+            top: -10px;
+            margin-left: 3px;
+
+            .custom-tooltip {
+                font-size: 14px;
+            }
+        }
+    }
+}
+.calculator-buttons-holder {
+    margin: 50px 0;
+    text-align: right;
+    
+    @media (min-width:250px) and (max-width:599px) {
+        text-align: center;
+        margin: 25px;
+    }
+    button {
+        width: 150px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        border: 2px solid $gold;
+        color: #fff;
+        background-color: $gold;
+        
+        &:hover {
+            background-color: transparent;
+            color: $gold;
+        }
+    }
+}
+
+#view_report_modal {
+    .modal-content {
+        .modal-body {
+            table {
+                tr {
+                    td {
+                        &:last-child {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
